@@ -94,8 +94,8 @@ Please help generate data for this table. Fork the repo, determine your device s
     // ready for cutting and pasting into your fork/PR of this repo
     Ti.API.info('|model_name|' +
          densities[Ti.Platform.displayCaps.density] + '|' +
-         Ti.Platform.displayCaps.logicalDensityFactor + '|' +
          Ti.Platform.displayCaps.dpi + '|' +
+         Ti.Platform.displayCaps.logicalDensityFactor + '|' +
          Ti.Platform.displayCaps.platformHeight + '|' +
          Ti.Platform.displayCaps.platformWidth + '|'
     );
