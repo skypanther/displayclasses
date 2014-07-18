@@ -18,7 +18,7 @@ Android display classes and screen sizes
 |HTC Sensation  |hdpi  |256| | | |
 |HTC Desire X  |hdpi  |233| | | |
 |HTC One S  |hdpi  |256| | | |
-|HTC One V  |hdpi  |252| | | |
+|HTC One V  |hdpi  |252|1.5|800|480|
 |HTC Nexus One  |hdpi  |252| | | |
 |HTC One X  |Xhdpi  |312| | | |
 |HTC One  |xxhdpi  |469| | | |
