@@ -97,7 +97,7 @@ Please help generate data for this table. Fork the repo, determine your device s
          Ti.Platform.displayCaps.logicalDensityFactor + '|' +
          Ti.Platform.displayCaps.dpi + '|' +
          Ti.Platform.displayCaps.platformHeight + '|' +
-         Ti.Platform.displayCaps.platformWidth + '|' +
+         Ti.Platform.displayCaps.platformWidth + '|'
     );
 
 # Acknowledgments
