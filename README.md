@@ -8,7 +8,7 @@ Android display classes and screen sizes
 |-------|---|-----------|----|------------------|----|----|----|
 |Google Nexus One  |hdpi  |252| | | |
 |Google Nexus S  |hdpi  |233| | | |
-|Google Nexus 7 2012  |hdpi  |216|1.331250072| | |
+|Google Nexus 7 2012  |mdpi|213|1.331250072|1205|800|
 |Google Nexus 7 2013  |xhdpi  |323|2 |1920 |1104 |
 |Google Nexus 4  |xhdpi  |318| | | |
 |Google Nexus 10  |xhdpi  |299| | | |
