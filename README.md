@@ -1,7 +1,7 @@
 Display Classes
 ==============
 
-Android display classes and screen sizes
+Android display classes and screen sizes (see notes that follow the table):
 
 # Device details
 |Brand / Device  |Class|PPI|logicalDensityFactor |platformHeight|platformWidth|
@@ -67,6 +67,11 @@ Android display classes and screen sizes
 |Motorola Razr XT910  |hdpi  |256| | | |
 |Motorola Moto G  |xhdpi  |326| | | |
 |Motorola Moto X  |xhdpi  |312| | | |
+
+## Notes:
+
+ * Ti.Platform.displayCaps.dpi represents Androids densityDpi which corresponds to the theoretical resolutions of the various density classes (low, medium, high, etc.). In other words, this value doesn't represent a device's true DPI. For that, look to Ti.Platform.displayCaps.xdpi and ydpi.
+ * Ti.Platform.displayCaps.platformHeight does not include the height of the ActionBar.
 
 # Generating more data
 
