@@ -41,6 +41,7 @@ Android display classes and screen sizes
 |Micromax Canvas 4 A210  |xhdpi  |294| | | |
 |Micromax Canvas Magnus A117  |xhdpi  |294| | | |
 |Micromax Canvas Turbo  |xxhdpi  |441| | | |
+|OnePlus One|xxhdpi|480|3|1920|1080|
 |Samsung Galaxy Y  |ldpi  ||0.75 | | |
 |Samsung Galaxy Ace  |mdpi  |165| | | |
 |Samsung Galaxy S  |hdpi  |233| 1.5| | |
@@ -93,11 +94,11 @@ Please help generate data for this table. Fork the repo, determine your device s
     Ti.API.info('Width: ' + Ti.Platform.displayCaps.platformWidth);
     // ready for cutting and pasting into your fork/PR of this repo
     Ti.API.info('|model_name|' +
-         densities[Ti.Platform.displayCaps.density] + '|' +
          Ti.Platform.displayCaps.logicalDensityFactor + '|' +
+         densities[Ti.Platform.displayCaps.density] + '|' +
          Ti.Platform.displayCaps.dpi + '|' +
          Ti.Platform.displayCaps.platformHeight + '|' +
-         Ti.Platform.displayCaps.platformWidth + '|' +
+         Ti.Platform.displayCaps.platformWidth + '|'
     );
 
 # Acknowledgments
