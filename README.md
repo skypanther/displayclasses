@@ -1,9 +1,11 @@
 Display Classes
 ==============
 
+# Android
+
 Android display classes and screen sizes (see notes that follow the table):
 
-# Device details
+## Device details
 |Brand / Device  |Class|PPI|logicalDensityFactor |platformHeight|platformWidth|
 |-------|---|-----------|----|------------------|----|----|----|
 |Google Nexus One  |hdpi  |252| | | |
@@ -68,10 +70,27 @@ Android display classes and screen sizes (see notes that follow the table):
 |Motorola Moto G  |xhdpi  |326| | | |
 |Motorola Moto X  |xhdpi  |312| | | |
 
-## Notes:
+### Notes:
 
  * Ti.Platform.displayCaps.dpi represents Androids densityDpi which corresponds to the theoretical resolutions of the various density classes (low, medium, high, etc.). In other words, this value doesn't represent a device's true DPI. For that, look to Ti.Platform.displayCaps.xdpi and ydpi.
  * Ti.Platform.displayCaps.platformHeight does not include the height of the ActionBar.
+
+# iOS
+
+iOS doesn't use display classes in the same way as Android. But it does have a similar notion of display independent pixels (called points) and pixel multipliers (that @2x/@3x suffix).
+
+## Device details
+|Device  |Class|PPI|Pixel multiplier |height (points)|width (points)|height (pixels)|width (pixels)|
+|-------|---|-----------|----|------------------|----|----|----|
+|iPhone 3/3GS  |low  |163|@1x |480 |320 |480 |320|
+|iPhone 4/4s  |high  |326&dagger;|@2x |480 |320 |960 |640 |
+|iPhone 5/5c/5S  |high  |326|@2x |568 |320 |1136 |640 |
+|iPhone 6  |??  |326|@2x |667 |375 | | |
+|iPhone 6+  |??  |401|@3x |736 |414 | | |
+|iPad 1-3  |low  | |@1x |1024 |768 |1024 |768 |
+|iPad 4, Air  |high  | |@2x |1024 |768 |2048 |1536 |
+
+&dagger; some references say the iPhone 3 - 6 all have a 163 PPI display, while other sources give the data above.
 
 # Generating more data
 
@@ -79,7 +98,9 @@ Please help generate data for this table. Fork the repo, determine your device s
 
 ### Appcelerator Titanium
 
-    // drop this into your app/alloy.js file or Resources/app.js
+    // FOR ANDROID drop this into your app/alloy.js file or Resources/app.js
+    // while it will work for iOS, it doesn't output all the necessary
+    // info for the above table
     Ti.API.info('displayCaps: '+JSON.stringify(Ti.Platform.displayCaps));
 
     // or more to get just the info as in the table here:
@@ -92,7 +113,11 @@ Please help generate data for this table. Fork the repo, determine your device s
       xxxhigh: 'xxxhdpi'
     };
     Ti.API.info('Density class: ' + densities[Ti.Platform.displayCaps.density]);
-    Ti.API.info('Logical density factor: ' + Ti.Platform.displayCaps.logicalDensityFactor);
+    if(Ti.Platform.osname == 'iphone') {
+      Ti.API.info('Density: ' + Ti.Platform.displayCaps.density);
+    } else {
+      Ti.API.info('Logical density factor: ' + Ti.Platform.displayCaps.logicalDensityFactor);
+    }
     Ti.API.info('DPI: ' + Ti.Platform.displayCaps.dpi);
     Ti.API.info('Height: ' + Ti.Platform.displayCaps.platformHeight);
     Ti.API.info('Width: ' + Ti.Platform.displayCaps.platformWidth);
@@ -100,7 +125,7 @@ Please help generate data for this table. Fork the repo, determine your device s
     Ti.API.info('|model_name|' +
          densities[Ti.Platform.displayCaps.density] + '|' +
          Ti.Platform.displayCaps.dpi + '|' +
-         Ti.Platform.displayCaps.logicalDensityFactor + '|' +
+         (Ti.Platform.displayCaps.logicalDensityFactor || Ti.Platform.displayCaps.density) + '|' +
          Ti.Platform.displayCaps.platformHeight + '|' +
          Ti.Platform.displayCaps.platformWidth + '|'
     );
