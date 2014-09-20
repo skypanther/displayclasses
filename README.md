@@ -50,7 +50,7 @@ Android display classes and screen sizes (see notes that follow the table):
 |Samsung Galaxy S2  |hdpi  |240|1.5 |800 |480 |
 |Samsung Galaxy S3  |xhdpi  |320|2 |1280|720 |
 |Samsung Galaxy S4  |xxhdpi  |440|3|1920|1080|
-|Samsung Galaxy S5  |xxhdpi  |432|3| | |
+|Samsung Galaxy S5  |xxhdpi  |432|3| 1920|1080 |
 |Samsung Galaxy Nexus  |xhdpi  |316|2| | |
 |Samsung Galaxy Tab 10 inch tablet  |mdpi  |149|1 |1280 |800 |
 |Samsung Galaxy Tab 2 10 inch tablet  |mdpi  |149| | | |
