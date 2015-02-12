@@ -118,37 +118,39 @@ Please help generate data for this table. Fork the repo, determine your device s
 
 ### Appcelerator Titanium
 
-    // FOR ANDROID drop this into your app/alloy.js file or Resources/app.js
-    // while it will work for iOS, it doesn't output all the necessary
-    // info for the above table
-    Ti.API.info('displayCaps: '+JSON.stringify(Ti.Platform.displayCaps));
+```js
+// FOR ANDROID drop this into your app/alloy.js file or Resources/app.js
+// while it will work for iOS, it doesn't output all the necessary
+// info for the above table
+Ti.API.info('displayCaps: '+JSON.stringify(Ti.Platform.displayCaps));
 
-    // or more to get just the info as in the table here:
-    var densities = {
-      low: 'ldpi',
-      medium: 'mdpi',
-      high: 'hdpi',
-      xhigh: 'xhdpi',
-      xxhigh: 'xxhdpi',
-      xxxhigh: 'xxxhdpi'
-    };
-    Ti.API.info('Density class: ' + densities[Ti.Platform.displayCaps.density]);
-    if(Ti.Platform.osname == 'iphone') {
-      Ti.API.info('Density: ' + Ti.Platform.displayCaps.density);
-    } else {
-      Ti.API.info('Logical density factor: ' + Ti.Platform.displayCaps.logicalDensityFactor);
-    }
-    Ti.API.info('DPI: ' + Ti.Platform.displayCaps.dpi);
-    Ti.API.info('Height: ' + Ti.Platform.displayCaps.platformHeight);
-    Ti.API.info('Width: ' + Ti.Platform.displayCaps.platformWidth);
-    // ready for cutting and pasting into your fork/PR of this repo
-    Ti.API.info('|model_name|' +
-         (Ti.Platform.displayCaps.logicalDensityFactor || Ti.Platform.displayCaps.density) + '|' +
-         densities[Ti.Platform.displayCaps.density] + '|' +
-         Ti.Platform.displayCaps.dpi + '|' +
-         Ti.Platform.displayCaps.platformHeight + '|' +
-         Ti.Platform.displayCaps.platformWidth + '|'
-    );
+// or more to get just the info as in the table here:
+var densities = {
+  low: 'ldpi',
+  medium: 'mdpi',
+  high: 'hdpi',
+  xhigh: 'xhdpi',
+  xxhigh: 'xxhdpi',
+  xxxhigh: 'xxxhdpi'
+};
+Ti.API.info('Density class: ' + densities[Ti.Platform.displayCaps.density]);
+if(Ti.Platform.osname == 'iphone') {
+  Ti.API.info('Density: ' + Ti.Platform.displayCaps.density);
+} else {
+  Ti.API.info('Logical density factor: ' + Ti.Platform.displayCaps.logicalDensityFactor);
+}
+Ti.API.info('DPI: ' + Ti.Platform.displayCaps.dpi);
+Ti.API.info('Height: ' + Ti.Platform.displayCaps.platformHeight);
+Ti.API.info('Width: ' + Ti.Platform.displayCaps.platformWidth);
+// ready for cutting and pasting into your fork/PR of this repo
+Ti.API.info('|model_name|' +
+	 (Ti.Platform.displayCaps.logicalDensityFactor || Ti.Platform.displayCaps.density) + '|' +
+	 densities[Ti.Platform.displayCaps.density] + '|' +
+	 Ti.Platform.displayCaps.dpi + '|' +
+	 Ti.Platform.displayCaps.platformHeight + '|' +
+	 Ti.Platform.displayCaps.platformWidth + '|'
+);
+```
 
 # Acknowledgments
 
