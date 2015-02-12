@@ -65,6 +65,10 @@ Android display classes and screen sizes (see notes that follow the table):
 |Samsung Galaxy Nexus  |xhdpi  |316|2| | |
 |Samsung Galaxy Tab 10 inch tablet  |mdpi  |149|1 |1280 |800 |
 |Samsung Galaxy Tab 2 10 inch tablet  |mdpi  |149| | | |
+|Galaxy Tab Pro 8.4   |  | | |2560 |1600 |
+|Galaxy Tab Pro 10.1  |  | | |2560 |1600 |
+|Galaxy Tab S 8.4   |  |359 | |2560 |1600 |
+|Galaxy Tab S 10.1  |  |288 | |2560 |1600 |
 |Samsung Nexus 10 inch tablet  |xhdpi  |299| | | |
 |Samsung Note  |xhdpi  |285| |1280 |800 |
 |Samsung Note 2  |xhdpi  |267| |1280 |720 |
