@@ -107,7 +107,9 @@ iOS doesn't use display classes in the same way as Android. But it does have a s
 |iPhone 6  |??  |326|@2x |667 |375 |1334 |750 |
 |iPhone 6+ &Dagger; |??  |401|@3x |736 |414 |2208 |1242 |
 |iPad 1-3  |low  | |@1x |1024 |768 |1024 |768 |
-|iPad 4, Air  |high  | |@2x |1024 |768 |2048 |1536 |
+|iPad 4, Air  |high  |264 |@2x |1024 |768 |2048 |1536 |
+|iPad Mini    |low  |163 |@1x |1024 |768 |1024 |768 |
+|iPad Mini 2,3|high |326 |@2x |1024 |768 |2048 |1536 |
 
  * &dagger; some references say the iPhone 3 - 6 all have a 163 PPI display, while other sources give the data above.
  * &Dagger; actual display is downsampled to 1080 x 1920, see http://www.paintcodeapp.com/news/iphone-6-screens-demystified for more info
