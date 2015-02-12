@@ -46,7 +46,7 @@ Android display classes and screen sizes (see notes that follow the table):
 |OnePlus One|xxhdpi|480|3|1920|1080|
 |Samsung Galaxy Y  |ldpi| |0.75 | | |
 |Samsung Galaxy Ace  |mdpi  |165| | | |
-|Samsung Galaxy S  |hdpi  |233| 1.5| | |
+|Samsung Galaxy S  |hdpi  |233| 1.5|800 |480 |
 |Samsung Galaxy S2  |hdpi  |240|1.5 |800 |480 |
 |Samsung Galaxy S3  |xhdpi  |320|2 |1280|720 |
 |Samsung Galaxy S4  |xxhdpi  |440|3|1920|1080|
