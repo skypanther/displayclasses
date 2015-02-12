@@ -55,8 +55,10 @@ Android display classes and screen sizes (see notes that follow the table):
 |Samsung Galaxy Tab 10 inch tablet  |mdpi  |149|1 |1280 |800 |
 |Samsung Galaxy Tab 2 10 inch tablet  |mdpi  |149| | | |
 |Samsung Nexus 10 inch tablet  |xhdpi  |299| | | |
-|Samsung Note  |xhdpi  |285| | | |
-|Samsung Note 2  |xhdpi  |267| | | |
+|Samsung Note  |xhdpi  |285| |1280 |800 |
+|Samsung Note 2  |xhdpi  |267| |1280 |720 |
+|Samsung Note 3  |  |388 | |1920 |1080 |
+|Samsung Note 4  |  |515 | |2560 |1440 |
 |Sony Xperia mini    |mdpi  |192| | | |
 |Sony Xperia P  |hdpi  |275| | | |
 |Sony Xperia S  |xhdpi  |342| | | |
