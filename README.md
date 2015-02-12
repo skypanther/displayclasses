@@ -6,7 +6,7 @@ Display Classes
 Android display classes and screen sizes (see notes that follow the table):
 
 ## Device details
-|Brand / Device  |Class|PPI|logical Density Factor |platformHeight|platformWidth|
+|Brand / Device  |Class|PPI|logical Density Factor |platform Height|platform Width|
 |-------|---|-----------|----|------------------|----|----|----|
 |Google Nexus One  |hdpi  |252| | | |
 |Google Nexus S  |hdpi  |233| | | |
