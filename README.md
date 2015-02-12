@@ -3,6 +3,17 @@ Display Classes
 
 # Android
 
+Android [defines](http://developer.android.com/guide/practices/screens_support.html#range)
+a set of six generalized densities:
+
+- ldpi (low) ~120dpi
+- mdpi (medium) ~160dpi
+- hdpi (high) ~240dpi
+- xhdpi (extra-high) ~320dpi
+- xxhdpi (extra-extra-high) ~480dpi
+- xxxhdpi (extra-extra-extra-high) ~640dpi
+
+
 Android display classes and screen sizes (see notes that follow the table):
 
 ## Device details
