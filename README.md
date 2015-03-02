@@ -14,7 +14,8 @@ a set of six generalized densities:
 - xxxhdpi (extra-extra-extra-high) ~640dpi
 
 
-Android display classes and screen sizes (see notes that follow the table):
+Android display classes and screen sizes (see notes that follow the table):  
+If you have real devices please check numbers using utils like [ScreenInfo](https://github.com/mportuesisf/ScreenInfo)
 
 ## Device details
 |Brand / Device  |Class|PPI|logical Density Factor |platform Height|platform Width|
@@ -54,6 +55,7 @@ Android display classes and screen sizes (see notes that follow the table):
 |Micromax Canvas 4 A210  |xhdpi  |294| | | |
 |Micromax Canvas Magnus A117  |xhdpi  |294| | | |
 |Micromax Canvas Turbo  |xxhdpi  |441| | | |
+|Nokia N1||326 ||2048|1536|
 |OnePlus One|xxhdpi|480|3|1920|1080|
 |Samsung Galaxy Y  |ldpi| |0.75 | | |
 |Samsung Galaxy Ace  |mdpi  |165| | | |
@@ -62,6 +64,7 @@ Android display classes and screen sizes (see notes that follow the table):
 |Samsung Galaxy S3  |xhdpi  |320|2 |1280|720 |
 |Samsung Galaxy S4  |xxhdpi  |440|3|1920|1080|
 |Samsung Galaxy S5  |xxhdpi  |432|3| 1920|1080 |
+|Samsung Galaxy S6  |  |577| | 2560|1440 |
 |Samsung Galaxy Nexus  |xhdpi  |316|2| | |
 |Samsung Galaxy Tab 10 inch tablet  |mdpi  |149|1 |1280 |800 |
 |Samsung Galaxy Tab 2 10 inch tablet  |mdpi  |149| | | |
