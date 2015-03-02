@@ -14,7 +14,8 @@ a set of six generalized densities:
 - xxxhdpi (extra-extra-extra-high) ~640dpi
 
 
-Android display classes and screen sizes (see notes that follow the table):
+Android display classes and screen sizes (see notes that follow the table):  
+If you have real devices please check numbers using utils like [ScreenInfo](https://github.com/mportuesisf/ScreenInfo)
 
 ## Device details
 |Brand / Device  |Class|PPI|logical Density Factor |platform Height|platform Width|
