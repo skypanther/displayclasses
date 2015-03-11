@@ -26,17 +26,17 @@ See also <https://github.com/google/material-design-icons>
 Android display classes and screen sizes (see notes that follow the table).  
 If you have real devices please check numbers using utils like [ScreenInfo](https://github.com/mportuesisf/ScreenInfo)
 
-  [1]: http://android-developers.blogspot.com/2014/10/getting-your-apps-ready-for-nexus-6-and.html
+  [a]: http://android-developers.blogspot.com/2014/10/getting-your-apps-ready-for-nexus-6-and.html
 
 |Brand / Device  |Class|PPI|logical Density Factor |platform Height|platform Width|*|
 |-------|---|-----------|----|------------------|----|----|----|-|
 |Google Nexus One  |hdpi  |252| | | |
 |Google Nexus S  |hdpi  |233| | | |
-|Google Nexus 6 |xxxhdpi  |560| |1440 |2560 |[1](1) |
+|Google Nexus 6 |xxxhdpi  |560| |1440 |2560 |[a](a) |
 |Google Nexus 7 2012  |mdpi|213|1.331250072|1205|800|
 |Google Nexus 7 2013  |xhdpi  |323|2 |1920 |1104 |
 |Google Nexus 4  |xhdpi  |318| | | |
-|Google Nexus 9 |xhdpi  |288| |2048 |1536 |[1](1) |
+|Google Nexus 9 |xhdpi  |288| |2048 |1536 |[a](a) |
 |Google Nexus 10  |xhdpi  |299| | | |
 |HTC Wildfire  |mdpi  |125| | | |
 |HTC Desire  |hdpi  |252| | | |
