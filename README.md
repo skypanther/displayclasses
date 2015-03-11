@@ -26,7 +26,7 @@ See also <https://github.com/google/material-design-icons>
 Android display classes and screen sizes (see notes that follow the table).  
 If you have real devices please check numbers using utils like [ScreenInfo](https://github.com/mportuesisf/ScreenInfo)
 
-[1] : http://android-developers.blogspot.com/2014/10/getting-your-apps-ready-for-nexus-6-and.html
+  [1]: http://android-developers.blogspot.com/2014/10/getting-your-apps-ready-for-nexus-6-and.html
 
 |Brand / Device  |Class|PPI|logical Density Factor |platform Height|platform Width|*|
 |-------|---|-----------|----|------------------|----|----|----|-|
