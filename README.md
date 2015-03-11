@@ -13,11 +13,19 @@ a set of six generalized densities:
 - xxhdpi (extra-extra-high) ~480dpi
 - xxxhdpi (extra-extra-extra-high) ~640dpi
 
+For example [Android](http://developer.android.com/design/style/iconography.html) says
 
-Android display classes and screen sizes (see notes that follow the table):  
-If you have real devices please check numbers using utils like [ScreenInfo](https://github.com/mportuesisf/ScreenInfo)
+> Launcher icons on a mobile device must be 48x48 dp.
+
+That means to look well on upto newest smartphones one needs to prepare 5 icons with 1:1.5:2:3:4 scale: 
+
+See also <https://github.com/google/material-design-icons>
 
 ## Device details
+
+Android display classes and screen sizes (see notes that follow the table).  
+If you have real devices please check numbers using utils like [ScreenInfo](https://github.com/mportuesisf/ScreenInfo)
+
 |Brand / Device  |Class|PPI|logical Density Factor |platform Height|platform Width|
 |-------|---|-----------|----|------------------|----|----|----|
 |Google Nexus One  |hdpi  |252| | | |
