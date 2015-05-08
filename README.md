@@ -1,6 +1,8 @@
 Display Classes
 ==============
 
+My little attempt to catalog device sizes, display classes, and related critical graphics detail for Android and iOS apps.
+
 # Android
 
 Android [defines](http://developer.android.com/guide/practices/screens_support.html#range)
@@ -13,30 +15,19 @@ a set of six generalized densities:
 - xxhdpi (extra-extra-high) ~480dpi
 - xxxhdpi (extra-extra-extra-high) ~640dpi
 
-For example [Android](http://developer.android.com/design/style/iconography.html) says
+## Android device details
 
-> Launcher icons on a mobile device must be 48x48 dp.
-
-That means to look well on upto newest smartphones one needs to prepare 5 icons with 1:1.5:2:3:4 scale: 
-
-See also <https://github.com/google/material-design-icons>
-
-## Device details
-
-Android display classes and screen sizes (see notes that follow the table).  
 If you have real devices please check numbers using utils like [ScreenInfo](https://github.com/mportuesisf/ScreenInfo)
 
-  [a]: http://android-developers.blogspot.com/2014/10/getting-your-apps-ready-for-nexus-6-and.html
-
-|Brand / Device  |Class|PPI|logical Density Factor |platform Height|platform Width|*|
-|-------|---|-----------|----|------------------|----|----|----|-|
+|Brand / Device  |Class|PPI|logical Density Factor |platform Height|platform Width|
+|-------|---|-----------|----|------------------|----|----|----|
 |Google Nexus One  |hdpi  |252| | | |
 |Google Nexus S  |hdpi  |233| | | |
-|Google Nexus 6 |xxxhdpi  |560| |1440 |2560 |[a](a) |
+|Google Nexus 6 [\[1\]](#footnote1) |xxxhdpi  |560| |1440 |2560 |
 |Google Nexus 7 2012  |mdpi|213|1.331250072|1205|800|
 |Google Nexus 7 2013  |xhdpi  |323|2 |1920 |1104 |
 |Google Nexus 4  |xhdpi  |318| | | |
-|Google Nexus 9 |xhdpi  |288| |2048 |1536 |[a](a) |
+|Google Nexus 9 [\[1\]](#footnote1) |xhdpi  |288| |2048 |1536 |
 |Google Nexus 10  |xhdpi  |299| | | |
 |HTC Wildfire  |mdpi  |125| | | |
 |HTC Desire  |hdpi  |252| | | |
@@ -104,10 +95,31 @@ If you have real devices please check numbers using utils like [ScreenInfo](http
 |Motorola Moto G  |xhdpi  |326| | | |
 |Motorola Moto X  |xhdpi  |312| | | |
 
+<a id="footnote1"></a>
+  [1]: <http://android-developers.blogspot.com/2014/10/getting-your-apps-ready-for-nexus-6-and.html>
+
+
 ### Notes:
 
  * Ti.Platform.displayCaps.dpi represents Androids densityDpi which corresponds to the theoretical resolutions of the various density classes (low, medium, high, etc.). In other words, this value doesn't represent a device's true DPI. For that, look to Ti.Platform.displayCaps.xdpi and ydpi.
  * Ti.Platform.displayCaps.platformHeight does not include the height of the ActionBar.
+
+### Android app icons
+
+[Android](http://developer.android.com/design/style/iconography.html) says
+
+> Launcher icons on a mobile device must be 48x48 dp.
+
+That means to look good on all devices, you must prepare 5 icons with 1, 1.5x, 2x, 3x, and 4x scales as follows. These are placed in the res/drawable-DPICLASS folders.
+
+* 48 × 48 pixels (mdpi)
+* 72 × 72 pixels (hdpi)
+* 96 × 96 pixels (xhdpi)
+* 144 × 144 pixels (xxhdpi)
+* 192 × 192 pixels (xxxhdpi)
+
+See <http://iconhandbook.co.uk/reference/chart/android/> and also <https://github.com/google/material-design-icons>.
+
 
 # iOS
 
@@ -172,6 +184,8 @@ Ti.API.info('|model_name|' +
 # Acknowledgments
 
 The seed of the idea and the starting point data for this came from http://qualitytestingtips.blogspot.com/2013/08/ldpi-mdpi-hdpi-xhdpi-xxhdpi.html with additional data from the Titans, particularly https://gist.github.com/iotashan/4a6a347547a9c49a3a68
+
+Many thanks to @paulvi for his help in adding details and clarity to this reference.
 
 License: MIT
 
