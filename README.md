@@ -129,17 +129,20 @@ iOS doesn't use display classes in the same way as Android. But it does have a s
 |Device  |Class|PPI|Pixel multiplier |height (points)|width (points)|height (pixels)|width (pixels)|
 |-------|---|-----------|----|------------------|----|----|----|
 |iPhone 3/3GS  |low  |163|@1x |480 |320 |480 |320|
-|iPhone 4/4s  |high  |326&dagger;|@2x |480 |320 |960 |640 |
+|iPhone 4/4s  |high  |326<sup>(1)</sup>|@2x |480 |320 |960 |640 |
 |iPhone 5/5c/5S  |high  |326|@2x |568 |320 |1136 |640 |
 |iPhone 6  |??  |326|@2x |667 |375 |1334 |750 |
-|iPhone 6+ &Dagger; |??  |401|@3x |736 |414 |2208 |1242 |
+|iPhone 6+<sup>(2)</sup> |??  |401|@3x |736 |414 |2208 |1242 |
 |iPad 1-3  |low  | |@1x |1024 |768 |1024 |768 |
 |iPad 4, Air  |high  |264 |@2x |1024 |768 |2048 |1536 |
 |iPad Mini    |low  |163 |@1x |1024 |768 |1024 |768 |
 |iPad Mini 2,3|high |326 |@2x |1024 |768 |2048 |1536 |
+|iPad Pro<sup>(3)</sup>| ?? | 264 |@2x |? |? |2732 |2048 |
 
- * &dagger; some references say the iPhone 3 - 6 all have a 163 PPI display, while other sources give the data above.
- * &Dagger; actual display is downsampled to 1080 x 1920, see http://www.paintcodeapp.com/news/iphone-6-screens-demystified for more info
+
+<sup>(1)</sup> some references say the iPhone 3 - 6 all have a 163 PPI display, while other sources give the data above.<br/>
+<sup>(2)</sup> actual display is downsampled to 1080 x 1920, see http://www.paintcodeapp.com/news/iphone-6-screens-demystified for more info<br/>
+<sup>(3)</sup> iPad Pro specs from http://www.imore.com/ipad-pro-specs The pixel multiplier is just my guess based on the PPI.
 
 # Generating more data
 
