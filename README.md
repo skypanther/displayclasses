@@ -69,13 +69,14 @@ If you have real devices please check numbers using utils like [ScreenInfo](http
 |Samsung Galaxy S5  |xxhdpi  |432|3| 1920|1080 |
 |Samsung Galaxy S6  |  |577| | 2560|1440 |
 |Samsung Galaxy Nexus  |xhdpi  |316|2| | |
-|Samsung Galaxy Tab 10 inch tablet  |mdpi  |149|1 |1280 |800 |
-|Samsung Galaxy Tab 2 10 inch tablet  |mdpi  |149| | | |
-|Galaxy Tab Pro 8.4   |  |359 | |2560 |1600 |
-|Galaxy Tab Pro 10.1  |  |299 | |2560 |1600 |
-|Galaxy Tab Pro 12.2  |  |247 | |2560 |1600 |
-|Galaxy Tab S 8.4   |  |359 | |2560 |1600 |
-|Galaxy Tab S 10.5  |  |288 | |2560 |1600 |
+|Samsung Galaxy Tab 10  |mdpi  |149|1 |1280 |800 |
+|Samsung Galaxy Tab 2 10  |mdpi  |149| | | |
+|Samsung Galaxy Tab 4 10.1  |mdpi  |149 | |1280 |800 |
+|Samsung Galaxy Tab Pro 8.4   |  |359 | |2560 |1600 |
+|Samsung Galaxy Tab Pro 10.1  |  |299 | |2560 |1600 |
+|Samsung Galaxy Tab Pro 12.2  |  |247 | |2560 |1600 |
+|Samsung Galaxy Tab S 8.4   |  |359 | |2560 |1600 |
+|Samsung Galaxy Tab S 10.5  |xhdpi  |288 | |2560 |1600 |
 |Samsung Nexus 10 inch tablet  |xhdpi  |299| | | |
 |Samsung Note  |xhdpi  |285| |1280 |800 |
 |Samsung Note 2  |xhdpi  |267| |1280 |720 |
