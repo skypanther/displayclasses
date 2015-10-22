@@ -1,7 +1,10 @@
 Display Classes
 ==============
 
+<p style="border: 1px solid #000;background-color:#455A64;color:white;padding:8px;"><strong>Note:</strong> This doc is pretty much superseded by Google''s listing of devices, physical size, density, etc. at <a href="https://design.google.com/devices/" style="color:white;">https://design.google.com/devices/</a> </p>
+
 My little attempt to catalog device sizes, display classes, and related critical graphics detail for Android and iOS apps.
+
 
 # Android
 
