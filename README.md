@@ -22,9 +22,9 @@ a set of six generalized densities:
 
 If you have real devices please check numbers using utils like [ScreenInfo](https://github.com/mportuesisf/ScreenInfo)
 
-|Brand / Device  |Class|PPI|logical Density Factor |platform Height|platform Width|
-|-------|---|-----------|----|------------------|----|----|----|
-|Google Nexus One  |hdpi  |252| | | |
+Brand / Device  |Class|PPI|logical Density Factor |platform Height|platform Width
+-------|---|-----------|----|------------------|----|----|----
+Google Nexus One  |hdpi  |252| | | 
 
 
 |Google Nexus S  |hdpi  |233| | | |
