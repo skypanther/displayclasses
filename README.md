@@ -25,6 +25,8 @@ If you have real devices please check numbers using utils like [ScreenInfo](http
 |Brand / Device  |Class|PPI|logical Density Factor |platform Height|platform Width|
 |-------|---|-----------|----|------------------|----|----|----|
 |Google Nexus One  |hdpi  |252| | | |
+
+
 |Google Nexus S  |hdpi  |233| | | |
 |Google Nexus 6 [\[1\]](#footnote1) |xxxhdpi  |560| |1440 |2560 |
 |Google Nexus 7 2012  |mdpi|213|1.331250072|1205|800|
