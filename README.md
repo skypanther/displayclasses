@@ -1,4 +1,3 @@
-
 Display Classes
 ==============
 
@@ -99,6 +98,7 @@ If you have real devices please check numbers using utils like [ScreenInfo](http
 |Motorola Razr XT910  |hdpi  |256| | | |
 |Motorola Moto G  |xhdpi  |326| | | |
 |Motorola Moto X  |xhdpi  |312| | | |
+
 
 <a id="footnote1"></a>
   [1]: <http://android-developers.blogspot.com/2014/10/getting-your-apps-ready-for-nexus-6-and.html>
